@@ -5,7 +5,7 @@ This project implements the requested functionality to generate prime numbers gi
 - Returns list of primes inclusive of a given range
 - Handles inverse range input, e.g., input of 10 - 1 will be treated just like 1 - 10 would
 - Command line interface to specify the range
-- 
+
 
 ## Requirements 
 - Python 3.7 / higher 
