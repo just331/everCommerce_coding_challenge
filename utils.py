@@ -9,7 +9,8 @@ def is_prime(value:int) -> bool:
     if value % 2 == 0:
         return False
 
-    for i in range(3, int(value ** 2) + 1, 2):
+    # find if num not in base cases is prime
+    for i in range(3, int(value ** .5) + 1, 2):
         if value % i == 0:
             return False
     return True
